@@ -26,14 +26,12 @@ const Main = () => {
         <CanvasComp
           pointValues={dataObject.upperChart.points}
           color={dataObject.upperChart.color}
-          title={dataObject.upperChart.heading}
         />
       </div>
       <div style={divClass}>
         <CanvasComp
           pointValues={dataObject.lowerChart.points}
           color={dataObject.lowerChart.color}
-          title={dataObject.lowerChart.heading}
         />
       </div>
     </div>

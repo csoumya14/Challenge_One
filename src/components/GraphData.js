@@ -96,7 +96,7 @@ const upperChart = {
     460,
     106,
   ],
-  heading: 'Individuals',
+
   color: 'blue',
 }
 
@@ -196,7 +196,7 @@ const lowerChart = {
     460,
     138,
   ],
-  heading: 'Company',
+
   color: 'purple',
 }
 

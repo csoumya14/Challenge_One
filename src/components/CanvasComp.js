@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from 'react'
 
 import drawCurve from './CardinalSpline'
 
-const CanvasComp = ({ pointValues, color, title }) => {
+const CanvasComp = ({ pointValues, color }) => {
   const [points, setPoints] = useState([])
   const [gradients, setGradients] = useState('')
 
